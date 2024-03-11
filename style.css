@@ -1,0 +1,156 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+
+   --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Off-Black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.social-profile-container {
+    background-color: var(--Dark-Grey);
+    padding: 50px;
+    border-radius: 1rem;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--White);
+    margin-bottom: -10px;
+}
+
+.location {
+    text-align: center;
+    color: var(--Green);
+}
+
+.job {
+    text-align: center;
+    color: var(--White);
+    margin-bottom: 20px;
+}
+
+.social-media {
+    text-align: center;
+    color: var(--White);
+}
+
+ul {
+    list-style: none;
+}
+
+
+.github {
+    background-color: var(--Grey);
+    margin-left: -45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+.github:hover{
+    background-color: var(--Green);
+    overflow: hidden;
+}
+
+
+.frontend {
+    background-color: var(--Grey);
+    margin-left: -45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.frontend:hover{
+    background-color: var(--Green);
+    overflow: hidden;
+}
+
+.linkedin {
+    background-color: var(--Grey);
+    margin-left: -45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.linkedin:hover{
+    background-color: var(--Green);
+    overflow: hidden;
+}
+
+.twitter {
+    background-color: var(--Grey);
+    margin-left: -45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.twitter:hover{
+    background-color: var(--Green);
+    overflow: hidden;
+}
+
+.instagram {
+    background-color: var(--Grey);
+    margin-left: -45px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.instagram:hover{
+    background-color: var(--Green);
+    overflow: hidden;
+}
+
+.attribution {
+    margin-top: 45px;
+}
+
+@media (max-width: 540px) {
+    h1 {
+      margin-top: 2rem;
+    }
+  
+    .social-profile-container {
+      margin: 0;
+    }
+  
+    .social-profile-container img {
+      padding: 0;
+      border-radius: 0;
+    }
+  
+    .social-profile-container img {
+      border-radius: 50%;
+    }
+  }
